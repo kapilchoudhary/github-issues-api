@@ -14,7 +14,7 @@ class IssuesController < ApplicationController
     @issue = @current_user.issues.new(issue_params)
 
     if @issue.save
-      render json: @issue, status: :created
+      render json: @issue, status: :ok
     else
       render json: @issue.errors, status: :unprocessable_entity
     end
@@ -22,7 +22,7 @@ class IssuesController < ApplicationController
 
   def update
     if @issue.update(issue_params)
-      render json: @issue, status: :updated
+      render json: @issue, status: :ok
     else
       render json: @issue.errors, status: :unprocessable_entity
     end

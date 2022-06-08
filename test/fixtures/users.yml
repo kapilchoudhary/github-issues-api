@@ -3,11 +3,11 @@
 one:
   name: MyString
   username: MyString
-  email: MyString
+  email: mystring@gmail.com
   password_digest: MyString
 
 two:
   name: MyString
   username: MyString
-  email: MyString
+  email: str@gmail.com
   password_digest: MyString
