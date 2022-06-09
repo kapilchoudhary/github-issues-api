@@ -5,9 +5,3 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-
-time = 1
-100.times do ||
-  Issue.create(title: "Issue##{time}", description: "Issue Description##{time}", user_id: User.first.id)
-  time += 1
-end

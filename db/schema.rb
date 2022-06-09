@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_08_103407) do
   create_table "issues", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "title", default: "f", null: false
+    t.string "title"
     t.text "description"
     t.bigint "user_id"
     t.index ["user_id"], name: "index_issues_on_user_id"

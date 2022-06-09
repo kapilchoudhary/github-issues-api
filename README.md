@@ -1,24 +1,14 @@
-# README
+# Github Issues API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Installation
+ - Prerequisite
+  - Ruby version - `2.7.2`
 
-Things you may want to cover:
+  - System dependencies
+      - Postgresql (Any version)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### For running the app
+ - One command install
+  - `bin/setup`
+ - For running the app
+  - `rails server`
